@@ -1,0 +1,25 @@
+html,body {
+  
+    margin: 0%;
+    background-color: #d9d9d9;
+  }
+  header{
+    position: sticky;
+  }
+  
+ .fir{
+     text-align: center;
+     font-size: 150px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ @media screen and (max-width: 500px) {
+     .fir{
+        text-align: center;
+        font-size: 50px;
+     }
+    }
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}

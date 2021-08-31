@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #d9d9d9;
+  }
+  canvas {
+    display: block;
+  }
+  
+  
+  header{
+    background-color: #A9A9A9;
+    
+  }
+ 

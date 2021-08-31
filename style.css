@@ -1,0 +1,151 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #d9d9d9;
+}
+canvas {
+  display: block;
+}
+
+
+header{
+  background-color: #A9A9A9;
+  
+}
+  
+
+
+
+hr{
+  color: rgb(245, 0, 0);
+}
+blockquote{
+  max-width: 600px;
+  margin: 10px 30px;
+  padding: 25px;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+image{
+
+  height: auto;
+  width: auto;
+  object-position: top;
+}
+footer{
+  
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  
+}
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+  }
+  .extraqa{
+    font-size: 20px;
+  }
+}
+p{
+ text-align:center;
+ 
+
+ 
+}
+h6{
+  text-align: right;
+}
+.heading{
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.para{
+  text-align: left;
+  font-size: 18px;
+}
+
+
+
+
+.h22{
+  font-size: 20px;
+  text-align: center;
+}
+.para{
+  text-align: left;
+  font-size: 18px;
+}
+.para2{
+  text-align: left;
+  font-size: 18px;
+}
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+  .imp{
+    font-size: 20px;
+  }
+  
+  .heading{
+    font-size: 20px;
+  }
+ 
+  .h22{
+    font-size: 18px;
+  }
+  .para{
+    font-size: 16px;
+    text-align: left;
+
+  }
+  .para2{
+    font-size: 16px;
+    text-align: left;
+
+  }
+}
+.para2{
+  font-size: 18px;
+  text-align: left;
+}
+b{
+  font-size: 16.5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.extraqa{
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.leading-relaxed{
+  text-align: left;
+}
+.row{
+  width: 100%;
+}
+.ex1{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.ex2{
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+}
