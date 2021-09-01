@@ -1,0 +1,393 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+   
+    
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    
+    
+
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
+    
+  
+    
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="icon1.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          Backbencherr
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blogs.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="NCERT Q-A.html">NCERT Question-Answers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="extraq-a.html">Extra Question-Answers</a>
+            </li>
+         
+            
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <h1 class="fr1">
+    Leçon 1 : Retrouvons nos amis
+  </h1>
+  <hr>
+  <style>
+      html,body{
+          margin-left: 0.1%;
+          margin-right: 0.1%;
+      }
+      .fr1{
+          font-size: 40px;
+          font-family: 'Times New Roman', Times, serif;
+          text-align: center;
+      }
+      @media screen and (max-width: 500px) {
+          .fr1{
+              font-size: 22px;
+          }
+      }
+      .frlecon1{
+          text-align: left;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 20px;
+      }
+  </style>
+  <br>
+  <p class="frlecon1">
+    Dis vrai ou faux:
+    <br>
+    Question 1:
+    <br>
+    La mere de Kunal et Akanksha est professeur de sciences.
+    <br>
+    Answer :
+    <br>
+    Faux
+    <br>
+    <br>
+    Question 2:
+    <br>
+    Les parents d’Ali et Nargis habitent a Paris.
+    <br>
+    Answer :
+    <br>
+    Faux
+    <br>
+    <br>
+    Question 3:
+    <br>
+    Kunal a 18 ans.
+    <br>
+    Answer :
+    <br>
+    Vrai
+    <br>
+    <br>
+    Question 4:
+    <br>
+    Ali et Nargis sont senegalais.
+    <br>
+    Answer :
+    <br>
+    Vrai
+    <br>
+    Lis et reponds aux questions suivantes :
+    <br>
+    Ou sont nos amis ? En Corse !
+    <br>
+    Voila une lettre envoyee par nos amis de cette lie. (Refere-toi a la lettre a la page 5)
+    <br>
+    <br>
+    A TOI
+    <br>
+    I. Reponds aux questions :
+    <br>
+    <br>
+    Question 1:
+    <br>
+    Qui a ecrit la lettre ? A qui ?
+    <br>
+    Answer :
+    <br>
+    Akanksha a ecrit la lettre a ses amis.
+    <br>
+    <br>
+    Question 2:
+    <br>
+    Ou se trouve Akanksha ?
+    <br>
+    Answer :
+    <br>
+    Akanksha se trouve en Corse, au sud de Bastia.
+    <br>
+    <br>
+    Question 3:
+    <br>
+    Comment sont les Aiguilles de Bavella ?
+    <br>
+    Answer :
+    <br>
+    Les Aiguilles de Bavella sont tres belles.
+    <br>
+    <br>
+    Question 4:
+    <br>
+    Quel temps faisait-il quand ils sont arrives en Corse ?
+    <br>
+    Answer :
+    <br>
+    Quand ils sont arrives, il pleuvait mais bientot, le beau temps s’est installe.
+    <br>
+    II. TVouve dans le texte :
+    <br>
+    <br>
+    Question 1:
+    <br>
+    le contraire de « commencer ».
+    <br>
+    Answer :
+    <br>
+    terminer
+    <br>
+    Question 2:
+    <br>
+    <br>
+    la forme nominale de « pleuvoir ».
+    <br>
+    Answer :
+    <br>
+    apluie
+    <br>
+    <br>
+    Question 3:
+    <br>
+    les noms de deux animaux de la ferme.
+    Answer :
+    <br>
+    moutons et cochons
+    <br>
+    <br>
+    Question 4:
+    <br>
+    le contraire de « partir ».
+    <br>
+    Answer :
+    <br>
+    arriver
+    <br>
+    <br>
+    A TOI
+    <br>
+    Void une liste des mots. Fais des phrases selon l’exemple donne. Attention a l’orthographe : majuscule ou minuscule ?
+    <br>
+    Exemple : La Champagne, c’est une region; le champagne, c’est un vin de cette region.
+    <br>
+     Camembert, c’est……………………. , le camembert, c’est …………………
+     <br>
+     Cognac, c’est …………………….., le cognac, c’est ……………………………..
+     <br>
+     Roquefort, c’est…………………….. , le roquefort, c’est ……………………..
+     <br>
+     La Bourgogne, c’est…………………….. , le bourgogne, c’est……………….
+     <br>
+    La Brie, c’est …………………….., le brie, c’est …………………………………..
+    <br>
+    Bordeaux, c’est …………………….., le bordeaux, c’est………………………..
+    <br>
+    Answer :
+    <br>
+    une commune, un fromage de cette commune
+    <br>
+     une commune, un brandy
+     <br>
+     une commune, un fromage de cette commune
+     <br>
+     une region, un vin
+     <br>
+     une region, un fromage
+     <br>
+     une commune en France, un vin de cette commune
+     <br>
+     <br>
+    A TOI
+    <br>
+    I. Chasse le mot intrus :
+    <br>
+     vin-vignoble – vendange – vingt
+     <br>
+     fromage – fromager – fromagerie – froment
+     <br>
+     parfum – parfumer – parfumerie – parfaire
+     <br>
+     chocolat – chocolate – chocolaterie – choc
+     <br>
+    la mode – la haute couture – le mode – la maison de couture
+    <br>
+    Answers :
+    <br>
+    vingt.
+    <br>
+     froment.
+     <br>
+     parfaire.
+     <br>
+     choc.
+     <br>
+     le mode.
+     <br>
+     <br>
+    II. Rapproche les deux parties de chaque proverbe :
+    <br>
+    Il faut battre le fer    .........                       (a)  n’amasse pas mousse.
+    <br>
+    Loin des yeux                                   (b)  font les bons amis.
+    <br>
+    Pierre qui roule                                (c)  quand il est chaud.
+    <br>
+    Les bons comptes                            (d)  plus on rit.
+    <br>
+    Si la jeunesse savait                         (e)  loin du coeur.
+    <br>
+    Plus on est de fous                           (f)  si vieillesse pouvait.
+    <br>
+    Quand le vin est tire                        (g) on mettrait Paris dans une bouteille.
+    <br>
+    Avec des si                                         (h) font les grandes rivieres.
+    <br>
+    Tout est bien                                     (i)  il faut le boire.
+    <br>
+    Les petits ruisseaux                         (j) qui finit bien.
+    <br>
+    Answers :
+    <br>
+    (c)
+    <br>
+    (e)
+    <br>
+    (a)
+    <br>
+    (b)
+    <br>
+    (f)
+    <br>
+    (d)
+    <br>
+    (i)
+    <br>
+    (g)
+    <br>
+    (j)
+    <br>
+    (h)
+    <br>
+    <br>
+    III. Complete avec des adjectifs demonstratifs :
+    <br>
+    « Voila une vue du haut de la tour Montparnasse : Regard………………….magasins ! Regardez………………..monde ! Ce sont des gens qui font du shopping. Regardez……………….tour ! C’est latour Eiffel. Regardez……………………. grande cathedrale ! C’est Notre Dame de Paris. Et…………………. immeuble-la, c’est le magasin FNAC. »
+    <br>
+    « Nous voila devant le musee. Entrons par…………….entree ! Commengonspar…………………….. salle !Observez…………………. tableaux ! portrait est celui de Colbert…………………homme a ete leconseiller des finances de Louis XIV. »
+    Answer :
+    <br>
+    
+    ces, ce, cette, cette, cet
+    <br>
+    cette, cette, ces, ce, cet.
+    <br>
+    <br>
+    IV. Mets les articles : (definis, indefinis, contractes)
+    <br>
+    L’lnde est………………………….peninsule. Delhi est …………………………capitale de l’lnde. En Inde, il y a beaucoup delieux a visiter………………………….nord, il y a de tres beaux monuments………………………..sud, il y a…………………………templesmagnifiques. L’lnde a un grand heritage culturel, comme…………………..France. L’lnde est………………………mosaique de cultures.
+   
+    <br>
+     Answer :
+    <br>
+    une, la, au, au, des, la, une
+    <br>
+    V.1. Mets les verbes au present:
+    <br>
+    (i) Le matin, Ravi………………….. (emmener) ses enfants a l’ecole. Ils………………….. (quitter) la maison a
+    <br>
+    7 heures. Puis, Ravi ………………….. (prendre) le bus pour aller a son bureau. A midi, il …………………..
+    <br>
+    (manger) au restaurant. Le soir, avant de rentrer, il………………….. (faire) des courses. Sa femme
+    <br>
+    ………………….. (aller) chercher les enfants.
+    <br>
+    (ii) Nous………………….. (finir) notre travail a 18 heures. Mon mari m’………………….. (attendre) a l’arret
+    <br>
+    de bus. Nous…………………..(prendre) le metro pour rentrer. Souvent nous ………………….. (choisir) un
+    <br>
+    RER qui est plus rapide. Nous…………………..(etre) chez nous dans quinze minutes.
+    <br>
+    Answer :
+    <br>
+    (i) emmene, quittent, prend, mange, fait, va,
+    <br>
+    (ii) finissons, attend, prenons, choisissons, sommes
+    <br>
+    <br>
+    2. Mets les verbes au passe compose : 
+    <br>
+    (i) Un informaticien de l’lnde raconte son arrivee en France :
+    <br>
+    Je………………….. (arriver) a Paris le 15 aout 2010. J’ ………………….. (chercher) du travail partout. Enfin
+    <br>
+    j’ ………………….. (trouver) un travail a Bordeaux. Ma femme et mes enfants………………….. (venir)
+    <br>
+    en 2012. En 2015, nous………………….. (acheter) un appartement et toute la famille
+    <br>
+    (rester) en France.
+    <br>
+    (ii) Un artiste raconte sa journee :
+    <br>
+    Hier, j’ ………………….. (commencer) mon travail a 9 heures. Nous ………………….. (faire) des dessins
+    <br>
+    jusqu’a midi. Ensuite, nous ………………….. (aller) dejeuner. Puis, nous…………………..(travailler)
+    <br>
+    jusqu’a 6 heures et nous………………….. (fermer) notre atelier a 7 heures.
+    <br>
+    Answer :
+    <br>
+    (i) suis arrive, ai cherche, ai trouve, sont venus, avons achete, est restee
+    <br>
+    (ii) ai commence, avons fait, sommes alles, avons travaille, avons ferme
+    <br>
+    VI. Ecris une lettre d’environ 80 mots a ton ami(e), lui racontant un voyage que tu as fait pendant les vacances
+    <br>
+    Answer :
+    <br>
+    Delhi, le 20 fevrier
+    <br>
+    Cher Francois,
+    <br>
+    Comment vas-tu ? Mes vacances se sont bien terminees. Cette fois, j’ai visite Gwalior avec mes amis. Nous sommes alles en voiture. C’etait un long voyage mais tres agreable. Nous y sommes arrives pendant la nuit. On avait deux chambres dans un hotel a 5 etoiles. Le lendemain, nous avons quitte I’hotel tot pour visiter le fort de Gwalior. Nous sommes montes sur la colline du fort. Cette colline etait tres luxuriante et il n’y avait aucune voiture. La promenade etait tres paisible et inoubliable. Nous avons aussi.visite les temples et les sculptures jainistes ainsi que les temples sikh et le palais du Maharaja Man Singh. Dans le palais nous avons vu un musee qui etait plein d’objets insolites que les Maharajas avaient accumules. Ehotel etait tres confortable et la nourriture etait delicieuse. Nous nous sommes bien amuses. C’etait un voyage inoubliable. Je t’emmenerai a Gwalior quand tu visiteras l’lnde. Reponds-moi vite !
+<br>
+<br>
+<hr>  
+</p>
