@@ -172,4 +172,9 @@ b{
   }
   
 }
+.card:hover{
+  background-color:darkgray;
+ 
+
+}
 
